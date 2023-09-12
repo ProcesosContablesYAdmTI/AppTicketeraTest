@@ -1,0 +1,31 @@
+/* Estilos base para el contenedor principal */
+.history-detail-container {
+    padding: 20px;
+  }
+  
+  /* Estilos para dispositivos pequeños */
+  @media (max-width: 576px) {
+    .history-detail-container {
+      padding: 10px;
+    }
+    
+    .steps-container {
+      margin-top: 10px;
+    }
+    
+  }
+  
+  /* Estilos para dispositivos medianos y grandes */
+  @media (min-width: 577px) {
+
+    .steps-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+    .descriptions-container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+  }
